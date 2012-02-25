@@ -1,0 +1,7 @@
+Run 
+
+chmod +x install.sh
+
+Then
+
+sudo ./install.sh
