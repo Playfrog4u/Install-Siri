@@ -135,7 +135,8 @@ update () {
     sudo kill $PID
   fi
   echo "Updating ..."
-  git pull
+  chmod +x ./updateServer.sh
+  sudo ./updateServer.sh
   clear
   echo "Update finished."
 }
