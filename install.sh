@@ -128,7 +128,7 @@ edit_db () {
 }
 
 update () {
-  cd /SiriServer/
+  cd SiriServer/
   PID=`ps -ef | awk '/[s]iriServer/ { print $2 }'`
   if [ "$PID" != "" ]; then 
     echo "Killing SiriServer..."
